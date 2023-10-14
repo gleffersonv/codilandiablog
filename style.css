@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 414px;
+  height: 1367px;
+  max-width: 100vw;
+  background: #f3f5f7;
+}
+
+header {
+  width: 414px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+  max-width: 100vw;
+  margin-bottom: 50px;
+}
+nav {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100vw;
+  margin-bottom: 41px;
+}
+.pesquisa {
+  width: 300px;
+  height: 40px;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  background: #ffffff33;
+}
+::placeholder {
+  color: #f3f5f7;
+}
+.pesquisa img {
+  padding: 7px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+input {
+  border: none;
+  background: transparent;
+  padding-left: 10px;
+  border: 0 none;
+  outline: 0;
+  color: white;
+}
+.post1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+}
+article {
+  width: 300px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 0px #13131f0d;
+  padding: 10px;
+  max-width: 100vw;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+@media (min-width: 374px) {
+  body {
+    width: 1920px;
+    max-width: 100vw;
+  }
+  header {
+    width: 1920px;
+    height: 250px;
+    max-width: 100vw;
+  }
+  nav {
+    width: 900px;
+    max-width: 100vw;
+  }
+  .pesquisa {
+    width: 900px;
+    height: 65px;
+    max-width: 100vw;
+  }
+
+  article {
+    width: 900px;
+    max-width: 100vw;
+  }
+}
